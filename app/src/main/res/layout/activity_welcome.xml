@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/welcome">
+
+    <View
+        android:id="@+id/placeholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/placeholder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/welcome_sign"
+        android:text="注册"
+        android:textSize="18sp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:layout_marginRight="1dp"
+        android:textColor="@color/white"
+        android:background="@color/colorWelcomeButton" />
+    <Button
+        android:id="@+id/welcome_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/placeholder"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="登录"
+        android:textSize="18sp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:layout_marginLeft="1dp"
+        android:textColor="@color/white"
+        android:background="@color/colorWelcomeButton"/>
+</RelativeLayout>

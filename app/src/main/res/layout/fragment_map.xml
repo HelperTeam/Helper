@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Hello，欢迎来到HELPER+，让我们开启撩陌生的妹妹（如果你是女生，撩陌生的汉子也行）之旅(^ 3 ^)"/>
+</LinearLayout>
